@@ -75,7 +75,7 @@
         auth.addQueryParam(searchParams, 'token_type');
         auth.addQueryParam(searchParams, 'expires_in', true);
         auth.addQueryParam(searchParams, 'state');
-        document.querySelector('p').innerHTML = JSON.stringify(auth);
+        document.querySelector('p').innerHTML = `<strong>token:</strong> ${auth.access_token}<br /><strong>type:</strong> ${auth.token_type}<br /><strong>expires in:</strong> ${auth.expires_in}s`;
       }
     }
   }
