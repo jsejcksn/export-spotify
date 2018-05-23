@@ -46,7 +46,6 @@ body {
 
 @media (min-aspect-ratio: 1/1) {
   .error-body {
-    /* background: url(https://media1.tenor.com/images/b5ff4d9783c61db83962f07155802827/tenor.gif) no-repeat center fixed; */
     background: url(https://media1.tenor.com/images/347ba6e901d5744877c5f525bfc7e028/tenor.gif) no-repeat center fixed;
     background-size: cover;
     height: 100vh;
