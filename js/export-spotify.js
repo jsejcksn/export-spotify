@@ -103,6 +103,7 @@
         auth.addQueryParam(searchParams, 'token_type');
         auth.addQueryParam(searchParams, 'expires_in', true);
         auth.addQueryParam(searchParams, 'state');
+        document.body.className = 'app-body';
         document.body.innerHTML = content.auth.success();
       }
     }
