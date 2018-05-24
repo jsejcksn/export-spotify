@@ -23,23 +23,23 @@ body {
   line-height: 1.5em;
 }
 
-div:first-of-type {
+.app-body div {
   background-color: var(--spotify-black);
   color: #fff;
   height: 100vh;
   padding: 2rem;
 }
 
-h1 {
+.app-body h1 {
   font-family: 'Nunito', sans-serif;
   margin: 4rem auto 2rem;
 }
 
-p {
+.app-body p {
   margin-top: 1em;
 }
 
-a {
+.app-body a {
   border-bottom: 2px solid var(--spotify-green);
   color: #fff;
   text-decoration: none;
@@ -63,9 +63,10 @@ a {
   font-size: 4rem;
   font-weight: 600;
   margin: 4rem auto 6rem;
+  margin: 6rem auto;
 }
 
-.auth-body > div:first-of-type > a:last-of-type {
+.auth-body > div > a {
   background-color: var(--spotify-green);
   border-radius: 10rem;
   color: #fff;
