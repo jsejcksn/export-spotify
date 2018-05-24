@@ -1,0 +1,121 @@
+:root {
+  --spotify-black: #191414;
+  --spotify-green: #1db954;
+}
+
+* {
+  border: 0;
+  box-sizing: inherit;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px; /* rem = 10px  */
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Nunito Sans', sans-serif;
+  height: 100vh;
+  line-height: 1.5em;
+}
+
+div:first-of-type {
+  background-color: var(--spotify-black);
+  color: #fff;
+  height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  margin: 4rem auto 2rem;
+}
+
+p {
+  margin-top: 1em;
+}
+
+a {
+  border-bottom: 2px solid var(--spotify-green);
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-body {
+  background-color: var(--spotify-black);
+  color: #fff;
+  height: 100vh;
+  line-height: 1.5em;
+}
+
+.auth-body > div {
+  font-size: 1.8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.auth-body > div > h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 4rem auto 6rem;
+}
+
+.auth-body > div:first-of-type > a:last-of-type {
+  background-color: var(--spotify-green);
+  border-radius: 10rem;
+  color: #fff;
+  display: table;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.error-body {
+  background: url(https://media1.tenor.com/images/b5ff4d9783c61db83962f07155802827/tenor.gif) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-body > div {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-body > div > a {
+  background-color: var(--spotify-green);
+  border-radius: 10rem;
+  color: #fff;
+  display: table;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .error-body {
+    background: url(https://media1.tenor.com/images/347ba6e901d5744877c5f525bfc7e028/tenor.gif) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
